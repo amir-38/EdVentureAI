@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #17191a;
+}
+.hero{
+    
+    img{
+        width: 260px;
+        margin: 20px 60px;
+    }
+}
+
+
+.navigate{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    .link{
+        list-style-type: none;
+        text-decoration: none;
+        padding: 0px 20px;
+        font-size: 20px;
+        color: #404f64;
+        &.link:hover{
+            color: #fabf68;
+        }
+        
+    }
+}

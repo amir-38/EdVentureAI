@@ -1,0 +1,48 @@
+.answer {
+  color: rgb(0, 0, 0);
+  background-image: radial-gradient(circle at 100%, #f7a028, #fffbf7);
+  padding-top: 50px;
+}
+.answer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.answer ul li {
+  list-style-type: none;
+  text-decoration: none;
+  display: contents;
+  font-size: 22px;
+}
+.answer ul li textarea {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 60px;
+  margin: 10px 0px 30px 0px;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons button {
+  margin: 10px 70px 150px 70px;
+  width: 180px;
+  height: 60px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #415065;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 44px;
+  font-size: 26px;
+  letter-spacing: 6px;
+}
+.buttons button:hover {
+  color: #f7a028;
+}/*# sourceMappingURL=Forms.css.map */
